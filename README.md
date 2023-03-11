@@ -18,7 +18,7 @@ One of the purposes of this project was to review some concepts of asynchronous 
 
 ---
 
-<p> It was made by [me, Erik!](https://www.linkedin.com/in/erik-galdino-8038b3242/) :3</p>
+<p> It was made by me, Erik! :3</p>
 
 ---
 
