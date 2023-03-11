@@ -1,0 +1,217 @@
+:root{
+    --fg-blue: #E1F2FB;
+    --fg-pink: #F3DFE3;
+    --fg-pink2: #E9B2BC;
+    --fg-white: #fff;
+}
+
+@font-face {
+    font-family: "5x5"; 
+    src: url("../src/5×5.ttf") format("truetype");
+}   
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: '5x5';
+}
+
+body{
+    background-image: url("../img/heartgrid.gif");
+}
+
+/*Header*/
+.header, li, a{
+    font-size: 16px;
+    color: #000;
+    text-decoration: none;
+}
+
+#love{
+    color: red;
+}
+
+#nome{
+    text-decoration-line: underline;
+    text-decoration-style: double;
+    text-decoration-color: var(--fg-blue);
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+    border: 3px solid var(--fg-blue);
+    margin: 20px;
+}
+
+.nav_links{
+    list-style: none;
+}
+
+.nav_links li{
+    display: inline-block;
+    padding: 0px 20px;
+    font-size: 20px;
+    
+}
+
+.nav_links li a{
+    transition: all 0.3s ease 0s;
+    font-size: 20px;
+}
+
+.nav_links li a:hover{
+    color: var(--fg-blue);
+    text-shadow: -1px -1px 1px #000;
+}
+/*------------*/
+
+/*All*/
+.all{
+    justify-content: center;
+    margin: auto;
+    padding: 0px;
+    height: auto;
+    width: 550px;
+    border: 3px solid var(--fg-blue);
+    background-color: #0007;
+}
+/*------------*/
+
+/*Main*/
+main{
+    display: flex;
+    justify-content: space-around;
+    padding: 0 18.762% 0 18.762%;
+}
+
+.coluna{
+    margin: 0 1% 0 1%;
+}
+
+.gens{
+    margin: 0px;
+    padding: 0px;
+    height: auto;
+    width: 400px;
+    border: 3px solid var(--fg-blue);
+    background-color: #0007;
+}
+
+h3{
+    padding: 20px 0;
+    text-align: center;
+    background-color: transparent;
+    font-size: 35px;
+}
+
+.title{
+    font-size: 30px;
+    background-color: transparent;
+}
+
+.title:hover{
+    text-shadow: -1px -1px 1px #0006;
+}
+
+.title_card{
+    display: block;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    text-align: left;
+    background: var(--fg-blue);
+    color: #000;
+    font-size: 14px;
+    font-weight: bold;
+    padding-left: 3px;
+}
+
+.goto{
+    display: block;
+    margin: 0;
+    padding: 0;
+    background: transparent;
+    width: 99%;
+    text-align: right;
+    font-size: 20px;
+    font-weight: bold;
+    color: var(--fg-white);
+}
+
+/*------------*/
+
+/*Footer*/
+footer{
+    display: block;
+    justify-content: center;
+    gap: 10px;
+    align-items: center;
+    padding: 0px 10%;
+    padding-bottom: 20px;
+    border: 3px solid var(--fg-blue);
+    margin: 20px;
+    text-align: center;
+}
+
+/*------------*/
+
+/*Title colors*/
+#red{
+    color: #FF1111;
+}
+#blue{
+    color: #1111FF;
+}
+#gold{
+    color: #DAA520;
+}
+#silver{
+    color: #C0C0C0;
+}
+#ruby{
+    color: #A00000;
+}
+#sapphire{
+    color: #0000A0;
+}
+#diamond{
+    color: #AAAAFF;
+}
+#pearl{
+    color: #FFAAAA;
+}
+#black{
+    color: #444444;
+}
+#white{
+    color: #E1E1E1;
+}
+#x{
+    color: #025DA6;
+}
+#y{
+    color: #EA1A3E;
+}
+#sun{
+    color: #F1912B;   
+}
+#moon{
+    color: #5599CA;
+}
+#sword{
+    color: #00A1E9;
+}
+#shield{
+    color: #BF004F;
+}
+#scarlet{
+    color: #F34134; 
+}
+#violet{
+    color: #8334B7;
+}
+/*------------*/

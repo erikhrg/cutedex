@@ -1,0 +1,123 @@
+:root{
+    --fg-blue: #E1F2FB;
+    --fg-pink: #F3DFE3;
+    --fg-pink2: #E9B2BC;
+    --fg-white: #fff;
+}
+
+main{
+    margin: 0;
+}
+
+/*PesquisaPokemon*/
+.pesquisaPokemon{
+    width: 500px;
+    height: 620px;
+    background: #fff5;
+    box-shadow: 2px 2px 4px #0001;
+}
+
+#conteudoPesquisa{
+    margin: 20% 0 20% 0%;
+}
+
+#defaultShiny{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 10% 0 10%;
+}
+
+#ds{
+    font-size: 25px;
+    font-weight: bold;
+    background-color: black;
+    padding-left: 2%;
+    color: white;
+    width: 150px;
+}
+
+#dataLista{
+    width: 200px;
+}
+
+#imagePesquisa{
+    display: flex;
+    justify-content: space-around;
+}
+
+#imagePesquisa img{
+    width: 150px;
+    border: 1px solid black;
+}
+
+#dataPesquisa{
+    display: flex;
+    justify-content: center;
+    margin: 7% 10% 0 10%;
+    font-size: 25px;
+    border-top: 5px solid black;
+    border-bottom: 1px solid black;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+}
+
+#formPesquisa{
+    display: flex;
+    justify-content: center;
+    margin: 10% 0 0 0;
+}
+
+#inputPesquisa{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin: 0% 10% 0 10%;
+    padding: 2% 10% 2% 10%;
+    outline: none;
+}
+
+/*------------*/
+
+/*Lista Pokemons*/
+.lista{
+    width: 500px;
+    height: 620px;
+    overflow-y: scroll;
+    background: #fff5;
+    box-shadow: 2px 2px 4px #0001;
+}
+
+li{
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+
+p{
+    font-size: 20px;
+}
+
+#dataLista{
+    width: 180px;
+}
+
+#tipo{
+    margin-left: 10%;
+}
+/*------------*/
+
+/*Scrollbar lista*/
+::-webkit-scrollbar {
+    width: 2px;
+}
+  
+::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px white;
+    background-color: #fff5;
+}
+  
+::-webkit-scrollbar-thumb {
+    background: #0009;
+    border-radius: 10px;
+}
+/*------------*/
