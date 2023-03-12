@@ -16,7 +16,7 @@ One of the purposes of this project was to review some concepts of asynchronous 
 
 <br>
 
-<p>[Feel free to test if you want!</p>
+<p>Feel free to test if you want!</p>
 <p>https://cutedex.vercel.app/</p>
 
 <br>
